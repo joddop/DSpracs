@@ -1,0 +1,6 @@
+data2=read.csv(file.choose(),sep=",",header=T)
+names(data2)
+summary(data2)
+head(data2)
+anv=aov(formula=satindex~dept+exp+dept*exp,data=data2)
+summary(anv)

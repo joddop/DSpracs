@@ -1,0 +1,38 @@
+satindex,dept,exp
+75,Finance,lt5
+56,Finance,lt5
+72,Finance,lt5
+59,Finance,lt5
+62,Finance,lt5
+66,Finance,lt5
+67,Finance,lt5
+71,Finance,lt5
+59,Finance,lt5
+62,Finance,lt5
+66,Finance,lt5
+58,Finance,lt5
+58,Marketing ,lt5
+63,Marketing ,lt5
+53,Marketing ,gt5
+74,Marketing ,gt5
+77,Marketing ,gt5
+69,Marketing ,gt5
+57,Marketing ,gt5
+70,Marketing ,gt5
+68,Marketing ,gt5
+51,Marketing ,gt5
+64,Marketing ,gt5
+55,Marketing ,gt5
+72,CS,gt5
+69,CS,gt5
+77,CS,gt5
+71,CS,gt5
+59,CS,gt5
+70,CS,gt5
+67,CS,gt5
+73,CS,gt5
+74,CS,gt5
+60,CS,gt5
+62,CS,gt5
+65,CS,gt5
+76,CS,gt5

@@ -1,0 +1,49 @@
+line 10 GLM conclusion
+glm=generalized linear model
+based on the p values EMPLOY, ADDRESS,DEBTINC, And CREDDEBT are statistically significant.
+
+type syntax first of glm 
+then its ss
+then its conclusion above.
+
+H0 for global testing is all the coefficients are equal to 0 i.e no significant variable in the model
+H1 for global testing is that atleast 1 significant model in the model.
+
+conclusion for global testing
+since p value is less than 0.05 we reject H0, i.e there is presence of atleast one significant variable.
+
+Conclusion of classificatioins and misclassification analysis
+1-->Actual defaulters
+0-->Actual non defaulter
+True-->Predicted defaulters according to model
+False-->Predicted non defaulters according to model
+here misclassification rate is (39+91)/700=18.57%
+39-->No. of times model predicted that person is defaulter but actually is non-defaulter
+91-->No. of times model predicted that person is non defaulter but actually is defaulter
+700-->total values
+
+Extra Info:
+Sensitivity-->% of occurrences correctly predicted (P=1,Y=1)(Here, correct prediction of defaulters)
+Specificity-->% of non occurrences correctly predicted (P=0,Y=0)(Here, correct prediction of non defaulters)
+Both above gives % of correct prediction
+
+False Positive Rate--> 1-Specificity
+False Negative Rate--> 1-Sensitivity
+Both above gives % of wrong prediction 
+
+if value greater than 0.5(CRITICAL VALUE)
+then person is defaulter
+if less than 0.5 
+then person is non defaulter
+
+
+Conclusion of Sensitivity & Specificity:
+Sensitiviy
+
+COnclusion of ROCR Curve:
+Accuracy of model is measured by AUC i.e Area under Curve of ROCR
+For perfect model area under curve should be 1
+For average model area under curve should be 0.5
+For bad model area under curve should be less than 0.5
+
+conclusion pending from line 40 to 44

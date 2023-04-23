@@ -1,0 +1,8 @@
+"validation using hold out method"
+install.packages("caret")
+library("caret")
+install.packages("lattice")
+library("lattice")
+install.packages("ggplot2")
+library("ggplot2")
+index=read.csv(file.choose(),sep=",",header=T)

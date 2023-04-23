@@ -1,0 +1,47 @@
+
+Homo
+variance of error is equally distributed
+
+Hetero
+if variance of error is not equal
+
+
+conclusion of hetero:
+as the plot is random no presence of heteroscadasticity
+since errors are distributed randomly, there is no indication of heteroscedasticity.
+
+
+conclusion of ncv test:
+as p value is greater than 0.05, we accept H0. Thus, constant variance is assumed.
+thus no presence of heteroscadasticity.
+
+
+what is autocorrelation:
+It refers to the correlation of a time series with its own past values.
+durbin watson test is used to check autocorrelation.
+
+conclusion of autocorrelation:
+as p<0.05, we accept the null hypothesis H0, i.e autocorrelation is not present among the errors.
+
+
+k fold cross validation:
+1. Randomly divide a dataset into k groups(fold)
+
+RMSE:
+root mean squared error
+measures the difference between the predictions made by the model and the actual observations
+lower the value of rmse, more closely model can predict actual observation
+
+Rsquared:
+correlation between predicted and actual value
+higher r-squared, the more closely a model can predict the actual observations.
+
+MAE:
+mean absolute error
+average absolute difference between the predictions made by model and actual observations.
+
+lowest aic model value will be added
+
+
+conclusion of forward
+index=1.1166*tec+0.3333*written+0.5432*gk
